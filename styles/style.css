@@ -24,7 +24,7 @@ nav {
 }
 nav>h3{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 nav > ul {
     display: flex;
@@ -32,24 +32,24 @@ nav > ul {
 }
 nav > ul > li > a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 130%;
     font-weight: 500;
     margin-left: 45px;
 }
 .banner h1{
     font-weight: bold;
-    font-size: 35px;
+    font-size: 255%;
     text-align: center;
     margin-top: -5px;
 }
 .banner p{
     text-align: center;
-    font-size: 13px;
+    font-size: 1.25em;
     margin-top: -5px;
     margin-bottom: 25px;
 }
 .banner> div:nth-of-type(1){
-    width: 30%;
+    width: 45%;
 }
 .banner > div:nth-of-type(2){
     text-align: center;
@@ -64,14 +64,13 @@ nav > ul > li > a {
     align-items: center;
     margin-bottom: 50px;
 }
-
 button{
     padding: 18px 30px;
     background-color: #FF900E;
     color: white;
     border: 0px;
-    border-radius: 8px;
-    font-size: 13px;
+    border-radius: 10px;
+    font-size: 100%;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -82,25 +81,30 @@ button{
 .quick >div:nth-of-type(2){
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .quick >div:nth-of-type(2)>div{
-    width: 80%;
+    width: 100%;
 }
 .images{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 20px;
+    gap: 7.5%;
+    width: 50%;
 }
 .images img{
-    height: 240px;
-    width: 240px;
+    height: 100%;
+    width: 100%;
 }
 .quick h2>span:nth-of-type(2){
     color: #FF900E;
 }
 .quick p{
-    font-size: 14px;
+    font-size: 130%;
     margin-bottom: 20px;
+}
+.quick h2{
+    font-size: 230%;
 }
 .quick button{
     padding: 15px 18px;
@@ -110,32 +114,28 @@ button{
         padding: 0 10px 0;
     }
     nav>h3{
-        font-size: 1rem;
+        font-size: 1.75rem;
     }
     nav > ul > li > a {
         text-decoration: none;
-        font-size: 13px;
+        font-size: 17px;
         font-weight: 500;
-        margin-left: 15px;
+        margin-left: 12px;
     }
     .banner> div:nth-of-type(1){
         width: 80%;
     }
     .banner h1{
-        font-size: 20px;
         margin-top: 30px;
-    }
-    button{
-        padding: 11px 20px;
-    }
-    .banner img{
-        width: 90vw;
     }
     .quick{
         flex-direction: column;
         padding: 0px;
         gap: 0px;
         justify-content: center;
+    }
+    .quick > div:nth-of-type(2){
+        width: 100%;
     }
     .images img{
         width: calc( 49vw - 10px );
